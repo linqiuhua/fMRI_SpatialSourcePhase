@@ -7,7 +7,7 @@
 % Output: sm_EBM_*.mat: index (half_ind) of shared voxels in all the subjects and complex-valued spatial maps (Sm) constructed by these voxels
 % Reference:"Spatial Source Phase: A New Feature for Identifying Spatial Differences 
 %            Based on Complex-Valued Resting-State fMRI Data," submitted to Human Brain Mapping
-% Note£ºThe following is an example for analyzing the DMN
+% NoteÂ£ÂºThe following is an example for analyzing the DMN
 % Date: October 2017
 % Author: Yue Qiu
 %*****************************************************************
@@ -20,7 +20,7 @@ C = 10; % number of candidate components for component of interest
 Zr = 0.5;  % magnitude threshold
 alpha = 0.05;  % a value specifying the significance level as (100*ALPHA)%
 
-%% ---------------------------Input data----------------------- %%    
+%% ---------------------------Input data----------------------- %%
 load data\mask_ind.mat
 load data\ref_DMN.mat  % "load data\ref_AUD.mat" for auditory
 
