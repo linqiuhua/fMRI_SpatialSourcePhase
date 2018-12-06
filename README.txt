@@ -4,9 +4,9 @@
         Matlab R2014a   GroupICATv4.0b
 
 	Datatsets:
-        Our results data can be download from http://pan.dlut.edu.cn/share?id=cag3ass9t7ec
-        The results data are obtained by using entropy bound minimization (EBM) algorithm of ICA (number of components N = 120, 10 runs, 82 subjects), and provided in data\res_SM_TC_k_*.mat. 
-        We also provide the index for in-brain voxels in data\mask_ind.mat, and the spatial reference for DMN [1] and Auditory [2] in data\ref_DMN.mat and ref_AUD.mat.
+        Our results data can be downloaded from http://pan.dlut.edu.cn/share?id=cag3ass9t7ec
+        The results data are obtained by using entropy bound minimization (EBM) algorithm of ICA (number of components N = 120, 10 runs, 82 subjects), and provided in data\res_SM_TC\res_SM_TC_k_*.mat. 
+        We also provide the index for in-brain voxels in data\mask_ind.mat, and the spatial reference for DMN [1] and Auditory [2] in data\ref_DMN.mat and data\ref_AUD.mat.
 
 
 	Experimental steps:     
@@ -38,9 +38,9 @@
     References:
  
         [1] Smith, S. M., Fox, P. T., Miller, K. L., Glahn, D. C., Fox, P. M., & Mackay, C. E., et al. (2009). Correspondence of the brain's functional architecture during activation and rest. Proceedings of the National Academy of Sciences of the United States of America, 106(31), 13040-13045.   
-        [2] Allen, E. A., Erhardt, E. B., Damaraju, E., Gruner, W., Segall, J. M., & Silva, R. F., et al. (2011). A baseline for the multivariate comparison of resting-state networks. Frontiers in Systems Neuroscience, 5(2), 1¨C23. 
+        [2] Allen, E. A., Erhardt, E. B., Damaraju, E., Gruner, W., Segall, J. M., & Silva, R. F., et al. (2011). A baseline for the multivariate comparison of resting-state networks. Frontiers in Systems Neuroscience, 5(2), 1Â¨C23. 
         [3] Efron, B., Tibshirani R. J. (1993). An Introduction to the Bootstrap. New York, Chapman & Hall/CRC.
         [4] Kuang,L.D., Lin,Q.H., Gong,X.F., Cong,F., Sui,J., & Calhoun,V.D.(2018). Model order effects on ICA of resting-state complex-valued fMRI data: application to schizophrenia. Journal of Neuroscience Methods, 304, 24-38. 
-        [5] Yu, M. C., Lin, Q. H., Kuang, L. D., Gong, X. F., Cong, F., & Calhoun, V. D. (2015). ICA of full complex-valued fMRI data using phase information of spatial maps. Journal of Neuroscience Methods, 249, 75¨C91. 
+        [5] Yu, M. C., Lin, Q. H., Kuang, L. D., Gong, X. F., Cong, F., & Calhoun, V. D. (2015). ICA of full complex-valued fMRI data using phase information of spatial maps. Journal of Neuroscience Methods, 249, 75Â¨C91. 
 
 
