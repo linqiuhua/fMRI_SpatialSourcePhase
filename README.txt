@@ -14,8 +14,7 @@
         Note: Our results of spatial maps estimates for DMN and auditory cortex are stored in data\sm_EBM_DMN.mat and data\sm_EBM_AUD.mat.
 
         (2) Run data_validation.m to generate bootstrap samples and resampling samples for intra- and inter- difference.
-        Note: Our results of resampling samples for DMN and auditory cortex are stored in data\bs_DMN.mat ,data\bs_AUD.mat, data\intra_inter_DMN.mat and
-        data\intra_inter_AUD.mat.
+        Note: Our results of resampling samples for DMN and auditory cortex are stored in data\bs_DMN.mat ,data\bs_AUD.mat, data\intra_inter_DMN.mat and data\intra_inter_AUD.mat.
 
         (3) Run main.m to perform Variance difference analysis and validation. 
         Note: Results for DMN and auditory cortex in the manuscript "Spatial Source Phase: A New Feature for Identifying Spatial Differences Based on Complex-Valued Resting-State fMRI" (submitted to Human Brain Mapping) can be obtained from demo_for_DMN.m and demo_for_Auditory.m.
