@@ -1,15 +1,15 @@
-	 "Spatial Source Phase: A New Feature for Identifying Spatial Differences Based on Complex-Valued Resting-State fMRI Data," submitted to Human Brain Mapping
+   "Spatial Source Phase: A New Feature for Identifying Spatial Differences Based on Complex-Valued Resting-State fMRI Data," submitted to Human Brain Mapping
 
-	Requirements:   
+   Requirements:   
         Matlab R2014a   GroupICATv4.0b
 
-	Datatsets:
+   Datatsets:
         Our results data can be downloaded from http://pan.dlut.edu.cn/share?id=cag3ass9t7ec
         The results data are obtained by using entropy bound minimization (EBM) algorithm of ICA (number of components N = 120, 10 runs, 82 subjects), and provided in data\res_SM_TC\res_SM_TC_k_*.mat. 
         We also provide the index for in-brain voxels in data\mask_ind.mat, and the spatial reference for DMN [1] and Auditory [2] in data\ref_DMN.mat and data\ref_AUD.mat.
 
-
-	Experimental steps:     
+   Experimental steps:    
+   
         (1) Run data_prepare.m to perform component selection,phase processing including de-ambiguity and phase de-noising, and best run selection. 
         Note: Our results of spatial maps estimates for DMN and auditory cortex are stored in data\sm_EBM_DMN.mat and data\sm_EBM_AUD.mat.
 
@@ -21,6 +21,7 @@
 
 
     Functions: 
+    
         (1) barweb.m: Plot histograms with standard deviation.
         (2) Bca_bootrap.m: Computes the bias-corrected and accelerated bootstrap estimate [3].
         (3) bestRunSelection.m: The best run selection by combining cross-run averaging and a one-sample t-test proposed in [4].
