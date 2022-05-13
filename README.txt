@@ -1,4 +1,4 @@
-   "Spatial Source Phase: A New Feature for Identifying Spatial Differences Based on Complex-Valued Resting-State fMRI Data," published Human Brain Mapping
+   "Spatial Source Phase: A New Feature for Identifying Spatial Differences Based on Complex-Valued Resting-State fMRI Data," published in Human Brain Mapping
 
    Requirements:   
         Matlab R2014a   GroupICATv4.0b
